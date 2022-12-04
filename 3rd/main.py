@@ -17,7 +17,7 @@ def main():
                 sum += ord(char) - 38
         print(sum)
 
-def main():
+def main2():
     with open('3rd/inputs.txt') as file:
         lines = file.readlines()
         groups = int(len(lines) / 3)
@@ -40,3 +40,4 @@ def main():
         print(sum)
 
 main()
+main2()
