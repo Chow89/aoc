@@ -19,9 +19,10 @@ def main():
             elif not instructions:
                 continue
             else:
-                [a, b] = line.split('from')
-                elements = int(a.split('move')[1].strip())
-                [origin, destination] = map(lambda x: int(x.strip()), b.split('to'))
+                _, elements, _, origin, _, destination = line.split(' ')
+                elements = int(elements)
+                origin = int(origin)
+                destination = int(destination)
                 for i in range(0, elements):
                     element = stacks[origin].pop()
                     stacks[destination].append(element)
@@ -52,9 +53,10 @@ def main2():
             elif not instructions:
                 continue
             else:
-                [a, b] = line.split('from')
-                elements = int(a.split('move')[1].strip())
-                [origin, destination] = map(lambda x: int(x.strip()), b.split('to'))
+                _, elements, _, origin, _, destination = line.split(' ')
+                elements = int(elements)
+                origin = int(origin)
+                destination = int(destination)
                 for i in range(0, elements):
                     element = stacks[origin].pop(i - elements)
                     stacks[destination].append(element)
