@@ -21,7 +21,6 @@ def flatten(dir):
         if elem.get('size'):    # it is a file
             pass
         else:
-            a = flatten(elem)
             list.extend(flatten(elem))
     return list
 
@@ -69,7 +68,6 @@ def main():
         tooBigDirs = list(filter(lambda x: dirSize(x) >= toBeDeletedSpace, dirs))
         toBeDeletedDir = sorted(tooBigDirs, key=lambda x: dirSize(x))[0]
         print(dirSize(toBeDeletedDir))
-
 
 
 main()
