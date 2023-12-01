@@ -1,5 +1,5 @@
 def main():
-    with open('4th/inputs.txt') as file:
+    with open('2022/4th/inputs.txt') as file:
         lines = file.readlines()
         i = 0
         for line in lines:
@@ -11,7 +11,7 @@ def main():
         print(i)
 
 def main2():
-    with open('4th/inputs.txt') as file:
+    with open('2022/4th/inputs.txt') as file:
         lines = file.readlines()
         i = 0
         for line in lines:

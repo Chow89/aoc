@@ -1,5 +1,5 @@
 def main():
-    with open('5th/inputs.txt') as file:
+    with open('2022/5th/inputs.txt') as file:
         lines = file.readlines()
         stacks = [[], [], [], [], [], [], [], [], []]
         instructions = False
@@ -28,7 +28,7 @@ def main():
 
 
 def main2():
-    with open('5th/inputs.txt') as file:
+    with open('2022/5th/inputs.txt') as file:
         lines = file.readlines()
         stacks = [[], [], [], [], [], [], [], [], []]
         instructions = False

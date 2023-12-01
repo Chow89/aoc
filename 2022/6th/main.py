@@ -1,5 +1,5 @@
 def main():
-    with open('6th/inputs.txt') as file:
+    with open('2022/6th/inputs.txt') as file:
         line = file.readlines()[0]
         for i in range(0, len(line)):
             if len(set(line[i:i + 4])) == len(line[i:i + 4]):
@@ -8,7 +8,7 @@ def main():
 
 
 def main2():
-    with open('6th/inputs.txt') as file:
+    with open('2022/6th/inputs.txt') as file:
         line = file.readlines()[0]
         for i in range(0, len(line)):
             if len(set(line[i:i + 14])) == len(line[i:i + 14]):

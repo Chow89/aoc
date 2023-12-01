@@ -1,5 +1,5 @@
 def main():
-    with open('9th/inputs.txt') as file:
+    with open('2022/9th/inputs.txt') as file:
         lines = file.readlines()
         head = {"x": 0, "y": 0}
         tail = {"x": 0, "y": 0}
@@ -48,7 +48,7 @@ def main():
 
 
 def main2():
-    with open('9th/inputs.txt') as file:
+    with open('2022/9th/inputs.txt') as file:
         lines = file.readlines()
         for line in lines:
             pass

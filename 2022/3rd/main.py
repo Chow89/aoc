@@ -1,5 +1,5 @@
 def main():
-    with open('3rd/inputs.txt') as file:
+    with open('2022/3rd/inputs.txt') as file:
         lines = file.readlines()
         itemTypes = [];
         for line in lines:
@@ -18,7 +18,7 @@ def main():
         print(sum)
 
 def main2():
-    with open('3rd/inputs.txt') as file:
+    with open('2022/3rd/inputs.txt') as file:
         lines = file.readlines()
         groups = int(len(lines) / 3)
         itemTypes = [];

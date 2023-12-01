@@ -5,5 +5,5 @@ pip install -r requirements.txt
 
 ## Start script
 ```sh
-python {1st,2nd,...}/main.py
+python {2022,2023}/{1st,2nd,...}/main.py
 ```

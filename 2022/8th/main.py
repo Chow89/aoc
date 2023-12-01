@@ -1,5 +1,5 @@
 def main():
-    with open('8th/inputs.txt') as file:
+    with open('2022/8th/inputs.txt') as file:
         lines = file.readlines()
         forest = []
         for line in lines:
@@ -43,7 +43,7 @@ def main():
 
 
 def main2():
-    with open('8th/inputs.txt') as file:
+    with open('2022/8th/inputs.txt') as file:
         lines = file.readlines()
         forest = []
         for line in lines:

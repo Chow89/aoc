@@ -1,5 +1,5 @@
 def main():
-    with open('1st/inputs.txt') as file:
+    with open('2022/1st/inputs.txt') as file:
         lines = file.readlines()
         elv, elves = 0, [0]
         for line in lines:

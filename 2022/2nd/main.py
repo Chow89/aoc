@@ -1,5 +1,5 @@
 def main():
-    with open('2nd/inputs.txt') as file:
+    with open('2022/2nd/inputs.txt') as file:
         lines = file.readlines()
         sum = 0
         for line in lines:
@@ -25,7 +25,7 @@ def main():
         print(sum)
 
 def main2():
-    with open('2nd/inputs.txt') as file:
+    with open('2022/2nd/inputs.txt') as file:
         lines = file.readlines()
         sum = 0
         for line in lines:

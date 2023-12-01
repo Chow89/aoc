@@ -26,7 +26,7 @@ def flatten(dir):
 
 
 def main():
-    with open('7th/inputs.txt') as file:
+    with open('2022/7th/inputs.txt') as file:
         lines = file.readlines()
         filesystem = {
             'name': '/',
