@@ -1,5 +1,5 @@
 def main():
-    with open('11th/inputs.txt') as file:
+    with open('2022/11th/inputs.txt') as file:
         lines = file.readlines()
         monkeys = []
         currentMonkey = None
@@ -56,7 +56,7 @@ def main():
 
 
 def main2():
-    with open('11th/inputs.txt') as file:
+    with open('2022/11th/inputs.txt') as file:
         lines = file.readlines()
         monkeys = []
         currentMonkey = None

@@ -1,5 +1,5 @@
 def main():
-    with open('10th/inputs.txt') as file:
+    with open('2022/10th/inputs.txt') as file:
         lines = file.readlines()
         cycle = 0
         register = 1
@@ -22,7 +22,7 @@ def main():
 
 
 def main2():
-    with open('10th/inputs.txt') as file:
+    with open('2022/10th/inputs.txt') as file:
         lines = file.readlines()
         cycle = 0
         register = 1
