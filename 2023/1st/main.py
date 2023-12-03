@@ -1,5 +1,5 @@
-import re
 import functools
+
 
 def main():
     with open('2023/1st/inputs.txt') as file:
