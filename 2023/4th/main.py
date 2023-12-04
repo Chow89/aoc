@@ -24,9 +24,12 @@ def main2():
     with open('2023/4th/inputs.txt') as file:
         lines = file.readlines()
         cards = []
+        total_cards = 0
         for i in range(len(lines)):
             cards.append(i + 1)
             number_of_cards = len(list(filter(lambda n: n == (i + 1), cards)))
+            total_cards += number_of_cards
+            cards = list(filter(lambda n: n != (i + 1), cards))
             cardpoints = 0
             winning_numbers, card_numbers = lines[i].split(':')[1].strip().split('|')
             winning_numbers = list(map(lambda x: x.strip(), winning_numbers.strip().split(' ')))
@@ -37,7 +40,7 @@ def main2():
             for repetation in range(number_of_cards):
                 for p in range(i + 2, i + cardpoints + 2):
                     cards.append(p)
-        print(len(cards))
+        print(total_cards)
 
 
 main()
