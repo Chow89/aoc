@@ -84,7 +84,6 @@ def main2():
                 data.update({current_map: []})
 
         for i in range(number_of_ranges):
-            print(i)
             start = seed_ranges[i * 2]
             end = start + seed_ranges[i * 2 + 1]
             for seed in range(start, end):
@@ -132,9 +131,8 @@ def main2():
                         location = humidity + diff
                 if location < minlocation:
                     minlocation = location
-                    print(minlocation)
 
-        print(min(locations))
+        print(minlocation)
 
 
 main()
