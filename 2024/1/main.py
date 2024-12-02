@@ -1,6 +1,3 @@
-import functools
-
-
 def main():
     with open('2024/1/inputs.txt') as file:
         lines = file.readlines()
